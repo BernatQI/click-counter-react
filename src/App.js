@@ -9,7 +9,7 @@ function App() {
   const [numClicks, setNumClicks] = useState(0);
 
   const manageClick = () => {
-    setNumClicks(numClicks + 33);
+    setNumClicks(numClicks + 1);
   };
   const resetCounter = () => {
     setNumClicks(0);
